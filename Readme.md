@@ -67,3 +67,16 @@ Exemplary figures
 | 20	          | 2432902008176640000                                         |
 | **long max** | 2,432,902,008,176,640,000<br/>**9,223,372,036,854,775,807** |
 | 21           | 51090942171709440000                                        |
+
+
+## Issues with the code in different modules
+
+## TDD-1-factorial-integer
+
+1. The code works well when number is less 13.
+2. When number is 13 or above - result is wrong (probably overflow bit is set to indicate an issue, but it is not checked in the code). So 13! with this method equals 1932053504.
+
+## TDD-2-factorial-long
+
+1. The code works well when number is less 22.
+2. When number is 22 or above - result is wrong (probably overflow bit is set to indicate an issue, but it is not checked in the code). So 22! with this method equals -1250660718674968576.
