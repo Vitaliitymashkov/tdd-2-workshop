@@ -1,0 +1,12 @@
+rootProject.name = 'tdd-2-workshop'
+include 'tdd-1-factorial-integer'
+include 'tdd-2-factorial-long'
+include 'tdd-3-factorial-bigInteger'
+include 'tdd-1-2-factorial-integer'
+include 'tdd-1-2-factorial-integer:tdd-1b-factorial-integer'
+findProject(':tdd-1-2-factorial-integer:tdd-1b-factorial-integer')?.name = 'tdd-1b-factorial-integer'
+include 'tdd-1-factorial-integer-with-checks'
+include 'tdd-1-factorial-integer-with-checks:tdd-1-factorial-integer-with-checks-but-no-assertions'
+findProject(':tdd-1-factorial-integer-with-checks:tdd-1-factorial-integer-with-checks-but-no-assertions')?.name = 'tdd-1-factorial-integer-with-checks-but-no-assertions'
+include 'tdd-1-factorial-integer-with-checks-but-no-relevant-assertions'
+
