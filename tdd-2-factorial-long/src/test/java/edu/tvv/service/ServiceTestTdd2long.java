@@ -4,9 +4,8 @@ import org.hamcrest.Matchers;
 import org.junit.jupiter.api.Test;
 
 import static org.hamcrest.MatcherAssert.assertThat;
-import static org.junit.jupiter.api.Assertions.*;
 
-class ServiceTest {
+class ServiceTestTdd2long {
     @Test
     public void testFunctionWithLongWhenFactorial12ShouldReturn479001600(){
         int input = 12;

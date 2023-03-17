@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 
 import java.math.BigInteger;
 
-class ServiceTest {
+class ServiceTestTdd3bigInt {
 
     @Test
     public void testFunctionWithBigIntegerWhenFactorial12ShouldReturn479001600(){

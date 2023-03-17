@@ -4,7 +4,7 @@ import org.hamcrest.MatcherAssert;
 import org.hamcrest.Matchers;
 import org.junit.jupiter.api.Test;
 
-class ServiceTest {
+class ServiceTestTdd1int {
     @Test
     public void testFunctionWithIntegerWhenFactorial12ShouldReturn479001600(){
         int input = 12;
