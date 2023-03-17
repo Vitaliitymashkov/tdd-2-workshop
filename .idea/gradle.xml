@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/tdd-1-2-factorial-integer" />
+            <option value="$PROJECT_DIR$/tdd-1-2-factorial-integer/tdd-1b-factorial-integer" />
+            <option value="$PROJECT_DIR$/tdd-1-factorial-integer" />
+            <option value="$PROJECT_DIR$/tdd-1-factorial-integer-with-checks" />
+            <option value="$PROJECT_DIR$/tdd-1-factorial-integer-with-checks-but-no-relevant-assertions" />
+            <option value="$PROJECT_DIR$/tdd-1-factorial-integer-with-checks/tdd-1-factorial-integer-with-checks-but-no-assertions" />
+            <option value="$PROJECT_DIR$/tdd-2-factorial-long" />
+            <option value="$PROJECT_DIR$/tdd-3-factorial-bigInteger" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
