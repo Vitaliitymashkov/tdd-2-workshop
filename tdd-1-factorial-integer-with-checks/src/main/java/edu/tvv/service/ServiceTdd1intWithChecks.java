@@ -1,6 +1,6 @@
 package edu.tvv.service;
 
-public class Service {
+public class ServiceTdd1intWithChecks {
     public int factorialInteger(int number) {
         if (number <= 0 || number > 12) {
             throw new IllegalArgumentException("Number is not in allowed range");

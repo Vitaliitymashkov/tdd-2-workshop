@@ -2,7 +2,7 @@ package edu.tvv.service;
 
 import java.math.BigInteger;
 
-public class Service {
+public class ServiceTdd3bigInt {
     public BigInteger factorialViaBigInteger(int number) {
         BigInteger result = BigInteger.valueOf(1);
         for(int i = 1; i <= number; i++) {
