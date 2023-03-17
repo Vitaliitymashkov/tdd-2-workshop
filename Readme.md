@@ -76,7 +76,29 @@ Exemplary figures
 1. The code works well when number is less 13.
 2. When number is 13 or above - result is wrong (probably overflow bit is set to indicate an issue, but it is not checked in the code). So 13! with this method equals 1932053504.
 
+## TDD-1-factorial-integer-with-checks
+
+1. The code works well when number is less 13.
+2. Additional checks were introduced to limit input.
+3. The code works well (in allowed range), but yet the implementation hides business logic issues. 
+
+## TDD-1-factorial-integer-with-checks-but-no-relevant-assertions
+
+1. The code works well when number is less 13.
+2. Additional checks were introduced to limit input.
+3. The code works well (in allowed range), but yet the implementation hides business logic issues.
+4. Unit tests exist, showing 100% coverage, but there is no assertions.
+
 ## TDD-2-factorial-long
 
 1. The code works well when number is less 22.
 2. When number is 22 or above - result is wrong (probably overflow bit is set to indicate an issue, but it is not checked in the code). So 22! with this method equals -1250660718674968576.
+
+## TDD-3-bigInteger
+
+1. The code works well with any number (if RAM has enough space).
+
+# Outcomes
+
+1. Unit tests coverage should not be considered as a single source of truth of code quality.
+2. Design of unit tests should follow business requirements, but not implementation specifics.
